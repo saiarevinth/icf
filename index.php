@@ -74,8 +74,8 @@
                 <li class="nav-item dropdown">
                     <a href="#" class="nav-link dropdown-toggle">About ICF <i class="fas fa-caret-down"></i></a>
                     <div class="dropdown-content">
-                        <a href="http://10.53.4.11/newicf/about_icf.php" class="dropdown-item">About ICF</a>
-                        <a href="http://10.53.4.11/newicf/gm.php" class="dropdown-item">Our General Manager</a>
+                        <a href="about.php" class="dropdown-item">About ICF</a>
+                        <a href="http://10.53.4.11/newicf/pdf/BGM3.pdf" class="dropdown-item">Our General Manager</a>
                         <a href="http://10.53.4.11/newicf/SECRETARIAT/pdf/Press%20Release-75000th%20coach%20roll%20out.pdf" class="dropdown-item">75000th Coach Production</a>
                         <a href="http://10.53.4.11/newicf/SECRETARIAT/pdf/GM%20republic%20day%20Speech%20final%2026-01-2025.pdf" class="dropdown-item">GM Speech-Republic Day</a>
                         <a href="http://10.53.4.11/newicf/pdf/GM%20sir%20Speech%20final%2015-08-2024.pdf" class="dropdown-item">GM Speech-Independence Day</a>
@@ -162,7 +162,7 @@
     </div>
 </li>
 
-              <li class="nav-item dropdown">
+             <li class="nav-item dropdown">
   <a href="#" class="nav-link dropdown-toggle">Important Links <i class="fas fa-caret-down"></i></a>
   <div class="dropdown-content three-column-dropdown">
     <div class="column">
@@ -173,46 +173,32 @@
       <a href="http://10.53.4.11/newicf/rajbhasha_new/railmag/output/menu.php" class="dropdown-item">Rajbhasha Magazine</a>
       <a href="http://10.53.4.85/PP/bogie" class="dropdown-item">Bogie Inspection Details (Testing)</a>
       <a href="http://10.53.4.89/outturn/" class="dropdown-item">Coach Despatch Summary</a>
-      <a href="http://10.53.4.89/PRODUCTION/" class="dropdown-item">Production Monitoring System</a>
-      <a href="http://10.53.4.89/cts/" class="dropdown-item">Coach Tracking System</a>
-      <!-- Moved links from the 4th column -->
-      <a href="http://10.53.4.89/Assetsregister/index.php" class="dropdown-item">Assets Register</a>
-      <a href="http://10.53.4.85/stores/mm/" class="dropdown-item">ICF - IMMS Reports</a>
-      <a href="http://10.53.4.89/mfs" class="dropdown-item">Material Forecast System(MFS)</a>
+      <a href="http://10.53.4.105/PB/sop/" class="dropdown-item">Schedule of Powers (SOP)</a>
+      <a href="http://10.53.4.105:81/vir_folder/" class="dropdown-item">Virtual Folder</a>
+      <a href="http://10.53.4.100/stores/mm/dashboard_dashboard.php?page=dashboard" class="dropdown-item">Purchase Module/ICF-IMMS Reports</a>
     </div>
     <div class="column">
-          <a href="login.php" class="dropdown-item">Image Upload</a>
+      <a href="login.php" class="dropdown-item">Image Upload</a>
       <a href="http://10.53.4.11/newicf/pdf/2024-25Proposals%20submitted%20to%20Railway%20board.pdf" class="dropdown-item">M&P Programme</a>
       <a href="http://10.53.4.11/newicf/cap_new/index.php" class="dropdown-item">Central Application Portal</a>
       <a href="https://vp.icf.gov.in/indexNew.php" class="dropdown-item">Vendor Portal</a>
       <a href="http://10.53.4.60:8081/MIS_ACCOUNTS/index.php?key=Accounts" class="dropdown-item">MIS-Accounts</a>
       <a href="http://10.53.4.11/newicf/MIS/index.php" class="dropdown-item">Management Information System(MIS)</a>
       <a href="http://10.53.4.89/PP/dca/" class="dropdown-item">Design Drawing Advise(DCA)</a>
-      <a href="http://10.53.4.93/drgs/project1/output" class="dropdown-item">Design Drawings Portal</a>
-      <a href="http://10.53.4.89/pp/pr_drg/PR_NEW/output/PURCHASE_PURC_PURCHASE_REQ_S4_list.php" class="dropdown-item">Purchase Request (PR) Drgs.(HANA)</a>
-      <a href="http://10.53.4.88/sb/sbhome.php" class="dropdown-item">Stores Bills</a>
-      <!-- Moved links from the 4th column -->
-      <a href="http://10.53.4.89/mfr" class="dropdown-item">Material Forecast Report(MFR)</a>
-      <a href="http://10.53.4.89/pcof/pcog/output/purc_gate_entry_s4_list.php" class="dropdown-item">Material Gate Entry</a>
-      <a href="http://10.53.4.88/gstportal/gsthome.php" class="dropdown-item">GST Portal</a>
     </div>
     <div class="column">
-          <a href="#" class="dropdown-item">File Upload</a>
+      <a href="#" class="dropdown-item">File Upload</a>
       <a href="http://10.53.4.60:8081/ESSDEMO/" class="dropdown-item">Employee Self Service(ESS)</a>
       <a href="http://10.53.4.89/esslink/mobile_app_download.php" class="dropdown-item">Mobile App Download Links</a>
       <a href="http://10.53.4.60:8081/SSSDEMO1/" class="dropdown-item">Supervisor Self Service(SSS)</a>
       <a href="http://10.53.4.11/newicf/sdownloads/index.html" class="dropdown-item">Software Downloads</a>
       <a href="https://email.gov.in/" class="dropdown-item">Rail Web Mail</a>
       <a href="http://10.53.4.86/cms/cmshome.php" class="dropdown-item">Centralized Messaging System</a>
-      <a href="http://10.53.4.86/ga/gahome.php" class="dropdown-item">Gate Attendance System</a>
-      <a href="http://10.53.4.89/eoffice/index.html" class="dropdown-item">ICF-eOffice Portal</a>
-      <!-- Moved links from the 4th column -->
-      <a href="http://10.53.4.105/PB/sop/" class="dropdown-item">Schedule of Powers (SOP)</a>
-      <a href="http://10.53.4.105:81/vir_folder/" class="dropdown-item">Virtual Folder</a>
-      <a href="http://10.53.4.100/stores/mm/dashboard_dashboard.php?page=dashboard" class="dropdown-item">Purchase Module/ICF-IMMS Reports</a>
+    <a href="http://10.53.4.105/icfstorescirculars/index.asp" class="dropdown-item">ICF Stores Circulars</a>
+      <a href="http://10.53.4.105/circulars_new/index.asp" class="dropdown-item">Railway Board Circulars</a>
+      <a href="http://10.53.4.89/web_cert/" class="dropdown-item">Website content Certification</a>
     </div>
     <div class="column">
-      <!-- Removed extra links from the 4th column -->
       <a href="http://10.53.4.11/PB/Welfare/welfare1.htm" class="dropdown-item">ICF Welfare</a>
       <a href="http://10.53.4.89/magazines/homenew.php" class="dropdown-item">ICF Magazines</a>
       <a href="http://10.53.4.11/newicf/PreVetted_ITSpec/main_page.htm" class="dropdown-item">Pre-Vetted IT Specs</a>
@@ -220,15 +206,24 @@
       <a href="http://10.53.4.11/newicf/pdf/SRS%20LOA.pdf" class="dropdown-item">CAMC Maint. for PCs & Peripherals</a>
       <a href="http://10.53.4.11/newicf/pdf/SRS%20Agreement%20-New-compressed.pdf" class="dropdown-item">Agreement Signed Copy</a>
       <a href="http://10.53.4.11/newicf/greenco/index.html" class="dropdown-item">Green Co</a>
-      <a href="http://10.53.4.105/icfstorescirculars/index.asp" class="dropdown-item">ICF Stores Circulars</a>
-      <a href="http://10.53.4.105/circulars_new/index.asp" class="dropdown-item">Railway Board Circulars</a>
-      <a href="http://10.53.4.89/web_cert/" class="dropdown-item">Website content Certification</a>
+    </div>
+    <div class="column">
+      <!-- Moved links from columns 1, 2, and 3 -->
+      <a href="http://10.53.4.89/PRODUCTION/" class="dropdown-item">Production Monitoring System</a>
+      <a href="http://10.53.4.89/cts/" class="dropdown-item">Coach Tracking System</a>
+      <a href="http://10.53.4.89/Assetsregister/index.php" class="dropdown-item">Assets Register</a>
+      <a href="http://10.53.4.85/stores/mm/" class="dropdown-item">ICF - IMMS Reports</a>
+      <a href="http://10.53.4.89/mfs" class="dropdown-item">Material Forecast System(MFS)</a>
+      <a href="http://10.53.4.93/drgs/project1/output" class="dropdown-item">Design Drawings Portal</a>
+      <a href="http://10.53.4.89/pcof/pcog/output/purc_gate_entry_s4_list.php" class="dropdown-item">Material Gate Entry</a>
+      <a href="http://10.53.4.88/gstportal/gsthome.php" class="dropdown-item">GST Portal</a>
       <a href="http://10.53.4.11/newicf/pdf/WSMA.pdf" class="dropdown-item">IPAS Workorder List</a>
       <a href="https://chsfiapr01.icf.gov.in:8001/sap/bc/ui2/flp#Shell-home" class="dropdown-item">Incentive Entry Screen</a>
       <a href="http://10.53.4.11/newicf/milestones.php#" class="dropdown-item">Site Map</a>
     </div>
   </div>
 </li>
+
                 <li class="nav-item dropdown">
   <a href="#" class="nav-link dropdown-toggle">Tenders <i class="fas fa-caret-down"></i></a>
   <div class="dropdown-content two-column-dropdown">
@@ -254,17 +249,6 @@
   </div>
 </li>
 
-                <li class="nav-item dropdown">
-  <a href="#" class="nav-link dropdown-toggle">Contacts <i class="fas fa-caret-down"></i></a>
-  <div class="dropdown-content">
-    <a href="#" class="dropdown-item">GM Intercom</a>
-    <a href="#" class="dropdown-item">ICF Officers Directory</a>
-    <a href="#" class="dropdown-item">ICF Telephone E-Directory</a>
-    <a href="#" class="dropdown-item">ICF CUG Directory</a>
-    <a href="#" class="dropdown-item">Officers/Staffs Mail IDs</a>
-  </div>
-</li>
-       
                 <li class="nav-item dropdown">
     <a href="#" class="nav-link dropdown-toggle">External Links <i class="fas fa-caret-down"></i></a>
     <div class="dropdown-content two-column-dropdown">
@@ -297,6 +281,17 @@
             <a href="#" class="dropdown-item">RTDC</a>
         </div>
     </div>
+</li>
+               
+                <li class="nav-item dropdown">
+  <a href="#" class="nav-link dropdown-toggle">Contacts <i class="fas fa-caret-down"></i></a>
+  <div class="dropdown-content">
+    <a href="#" class="dropdown-item">GM Intercom</a>
+    <a href="#" class="dropdown-item">ICF Officers Directory</a>
+    <a href="#" class="dropdown-item">ICF Telephone E-Directory</a>
+    <a href="#" class="dropdown-item">ICF CUG Directory</a>
+    <a href="#" class="dropdown-item">Officers/Staffs Mail IDs</a>
+  </div>
 </li>
             </ul>
         </div>
@@ -616,46 +611,46 @@
 
                     <!-- Birthday Wishes Section -->
                     <div class="birthday-container">
-                        <div class="birthday-card">
-                            <div class="card-header">
-                                <h3 class="card-title">Birthday Wishes</h3>
-                            </div>
-                            <div class="card-body">
-                                <table class="birthday-table">
-                                    <tbody>
-                                        <tr>
-                                            <td>R.KANNAIVALLI</td>
-                                            <td>OS</td>
-                                        </tr>
-                                        <tr>
-                                            <td>KUMAR P</td>
-                                            <td>SSE(MECH)</td>
-                                        </tr>
-                                        <tr>
-                                            <td>ARIBASKAR D</td>
-                                            <td>SSE(MECH)</td>
-                                        </tr>
-                                        <tr>
-                                            <td>RAKHI RAJPUT</td>
-                                            <td>OS</td>
-                                        </tr>
-                                        <tr>
-                                            <td>SURESH KUMARA.A</td>
-                                            <td>SSE(MECH)</td>
-                                        </tr>
-                                        <tr>
-                                            <td>ANANDAKUMAR.S</td>
-                                            <td>JE D</td>
-                                        </tr>
-                                        <tr>
-                                            <td>NISHA T.S</td>
-                                            <td>LAB. ASST.</td>
-                                        </tr>
-                                    </tbody>
-                                </table>
-                            </div>
-                        </div>
-                    </div>
+    <div class="birthday-card">
+        <div class="card-header">
+            <h3 class="card-title">Birthday Wishes</h3>
+        </div>
+        <div class="card-body">
+            <table class="birthday-table">
+                <tbody>
+                    <tr>
+                        <td>R.KANNAIVALLI</td>
+                        <td>OS</td>
+                    </tr>
+                    <tr>
+                        <td>KUMAR P</td>
+                        <td>SSE(MECH)</td>
+                    </tr>
+                    <tr>
+                        <td>ARIBASKAR D</td>
+                        <td>SSE(MECH)</td>
+                    </tr>
+                    <tr>
+                        <td>RAKHI RAJPUT</td>
+                        <td>OS</td>
+                    </tr>
+                    <tr>
+                        <td>SURESH KUMARA.A</td>
+                        <td>SSE(MECH)</td>
+                    </tr>
+                    <tr>
+                        <td>ANANDAKUMAR.S</td>
+                        <td>JE D</td>
+                    </tr>
+                    <tr>
+                        <td>NISHA T.S</td>
+                        <td>LAB. ASST.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
                 </div>
             </div>
         </section>
