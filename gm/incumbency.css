@@ -1,0 +1,201 @@
+/* General Styles */
+.u-list-1, .u-list-2 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+    padding: 15px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.u-list-item {
+    flex: 0 0 calc(25% - 15px); /* 4 items per row with gap */
+    max-width: calc(25% - 15px);
+    margin-bottom: 15px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    border-radius: 6px;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+    background: white;
+}
+
+.u-list-item:hover {
+    transform: translateY(-3px);
+}
+
+/* Image Container Styles */
+.u-image {
+    width: 120px; /* Reduced width */
+    height: 120px; /* Make it square for perfect circle */
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #f5f5f5;
+    border-radius: 50%; /* Make it round */
+    margin: 10px auto; /* Center the image */
+    border: 3px solid #e0e0e0; /* Add border */
+}
+
+.u-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 50%; /* Make image round */
+}
+
+/* Text Content Styles */
+.u-text {
+    padding: 10px;
+    text-align: center;
+}
+
+.u-text-palette-2-base {
+    font-size: 0.95em;
+    font-weight: 600;
+    margin: 8px 0;
+    color: #333;
+}
+
+.u-text-6, .u-text-7 {
+    font-size: 0.85em;
+    color: #666;
+    margin: 3px 0;
+    text-align: left;
+    padding-left: 10px;
+}
+
+/* Section Headers */
+.u-text-1, .u-text-2, .u-text-4 {
+    text-align: center;
+    margin: 25px 0;
+    color: #333;
+    font-weight: 600;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 1200px) {
+    .u-list-item {
+        flex: 0 0 calc(33.333% - 15px);
+        max-width: calc(33.333% - 15px);
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .u-list-item {
+        flex: 0 0 calc(50% - 15px);
+        max-width: calc(50% - 15px);
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .u-list-item {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+}
+
+/* Container Styles */
+.u-container-layout {
+    padding: 10px;
+    background: white;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center content */
+}
+
+/* Border Styles */
+.u-border-2 {
+    border: 1px solid #e0e0e0;
+}
+
+/* Table Styles */
+.u-table {
+    width: 100%;
+    margin-top: 8px;
+}
+
+.u-table-cell {
+    padding: 6px;
+    border: 1px solid #e0e0e0;
+    font-size: 0.85em;
+}
+
+/* Section Spacing */
+.u-section-2, .u-section-3 {
+    padding: 30px 0;
+}
+
+/* Line Separator */
+.u-line-1 {
+    margin: 15px auto;
+    width: 40px;
+    height: 2px;
+    background-color: #333;
+}
+
+/* --- CEO Section Fixes --- */
+/* Make CEO images round and same size as GMs */
+.u-list-1 .u-image {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #f5f5f5;
+    margin: 10px auto;
+    border: 3px solid #e0e0e0;
+}
+.u-list-1 .u-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+/* Make CEO From/To table look like GM date blocks */
+.u-list-1 .u-table {
+    width: 90%;
+    margin: 15px auto 0 auto;
+    background: #f8f9fa;
+    border-radius: 8px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.04);
+    border: none;
+}
+.u-list-1 .u-table-entity {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0 4px;
+}
+.u-list-1 .u-table-cell {
+    border: none;
+    background: transparent;
+    font-size: 0.92em;
+    color: #333;
+    padding: 6px 10px;
+    text-align: left;
+}
+.u-list-1 .u-table-body tr {
+    display: flex;
+    justify-content: space-between;
+    background: #fff;
+    border-radius: 6px;
+    margin-bottom: 4px;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.03);
+}
+.u-list-1 .u-table-body tr td:first-child {
+    font-weight: 500;
+    color: #888;
+    min-width: 40px;
+}
+.u-list-1 .u-table-body tr td:last-child {
+    font-weight: 600;
+    color: #222;
+}
+
+/* --- End CEO Section Fixes --- */ 

@@ -4,11 +4,12 @@ session_start();
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $username = $_POST['username'];
     $password = $_POST['password'];
+    $redirect = isset($_GET['redirect']) ? $_GET['redirect'] : 'main.php';
 
     // Admin shortcut
     if ($username === "admin" && $password === "123") {
         $_SESSION['user'] = "admin";
-        header("Location: main.php");
+        header("Location: " . $redirect);
         exit();
     }
 
@@ -20,7 +21,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     if (isset($valid_users[$username]) && $valid_users[$username] === $password) {
         $_SESSION['user'] = $username;
-        header("Location: main.php");
+        header("Location: " . $redirect);
         exit();
     } else {
         $error = "Invalid username or password";
@@ -99,7 +100,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 <body>
     <div class="login-container">
         <h2>Login to Access Main Page</h2>
-        <form method="POST" action="login.php">
+        <form method="POST" action="login.php<?php echo isset($_GET['redirect']) ? '?redirect=' . urlencode($_GET['redirect']) : ''; ?>">
             <label>Username:</label>
             <input type="text" name="username" required>
 
