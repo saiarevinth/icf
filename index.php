@@ -78,6 +78,7 @@ require_once 'language_helper.php';
                 <li class="nav-item dropdown">
                     <a href="#" class="nav-link dropdown-toggle"><?php echo __('about_icf'); ?> <i class="fas fa-caret-down"></i></a>
                     <div class="dropdown-content">
+<<<<<<< HEAD
                         <a href="about.php" class="dropdown-item"><?php echo __('about_icf'); ?></a>
                         <a href="http://10.53.4.11/newicf/pdf/BGM3.pdf" class="dropdown-item"><?php echo __('our_gm'); ?></a>
                         <a href="http://10.53.4.11/newicf/SECRETARIAT/pdf/Press%20Release-75000th%20coach%20roll%20out.pdf" class="dropdown-item"><?php echo __('coach_production'); ?></a>
@@ -86,6 +87,16 @@ require_once 'language_helper.php';
                         <a href="milestones.php" class="dropdown-item"><?php echo __('milestones'); ?></a>
                         <a href="http://10.53.4.11/newicf/pdf/export%20of%20coaches.pdf" class="dropdown-item"><?php echo __('exports'); ?></a>
                         <a href="http://10.53.4.105/pb/RTI.html" class="dropdown-item"><?php echo __('rti'); ?></a>
+=======
+                        <a href="about.php" class="dropdown-item">About ICF</a>
+                        <a href="http://10.53.4.11/newicf/pdf/BGM3.pdf" class="dropdown-item">Our General Manager</a>
+                        <a href="http://10.53.4.11/newicf/SECRETARIAT/pdf/Press%20Release-75000th%20coach%20roll%20out.pdf" class="dropdown-item">75000th Coach Production</a>
+                        <a href="http://10.53.4.11/newicf/SECRETARIAT/pdf/GM%20republic%20day%20Speech%20final%2026-01-2025.pdf" class="dropdown-item">GM Speech-Republic Day</a>
+                        <a href="http://10.53.4.11/newicf/pdf/GM%20sir%20Speech%20final%2015-08-2024.pdf" class="dropdown-item">GM Speech-Independence Day</a>
+                        <a href="http://10.53.4.11/newicf/milestones.php" class="dropdown-item">Milestones</a>
+                        <a href="http://10.53.4.11/newicf/pdf/export%20of%20coaches.pdf" class="dropdown-item">Exports</a>
+                        <a href="http://10.53.4.105/pb/RTI.html" class="dropdown-item">Right to Info Act</a>
+>>>>>>> 414fa9a10e6c23c4194d665fd64a5b270660c59e
                     </div>
                 </li>
                 <li class="nav-item"><a href="gm/gm.php" class="nav-link"><?php echo __('gm_secretariat'); ?></a></li>
@@ -111,6 +122,126 @@ require_once 'language_helper.php';
                         </div>
                     </div>
                 </li>
+<<<<<<< HEAD
+=======
+  <li class="nav-item dropdown">
+    <a href="#" class="nav-link dropdown-toggle">Indian Railways <i class="fas fa-caret-down"></i></a>
+    <div class="dropdown-content three-column-dropdown" style="min-width: 800px;">
+        <div class="column">
+            <h4>Zonal Railways</h4>
+            <a href="#" class="dropdown-item">Southern Railway <span class="badge">Railnet</span></a>
+            <a href="#" class="dropdown-item">Northern Railway <span class="badge">Railnet</span></a>
+            <a href="#" class="dropdown-item">Central Railway <span class="badge">Railnet</span></a>
+            <a href="#" class="dropdown-item">East Central Railway</a>
+            <a href="#" class="dropdown-item">East Coast Railway <span class="badge">Railnet</span></a>
+            <a href="#" class="dropdown-item">Eastern Railway <span class="badge">Railnet</span></a>
+            <a href="#" class="dropdown-item">North Central Railway <span class="badge">Railnet</span></a>
+            <a href="#" class="dropdown-item">North Eastern Railway</a>
+        </div>
+        <div class="column">
+            <h4>&nbsp;</h4>
+            <a href="#" class="dropdown-item">North Western Railway <span class="badge">Railnet</span></a>
+            <a href="#" class="dropdown-item">North Eastern Frontier Railway <span class="badge">Railnet</span></a>
+            <a href="#" class="dropdown-item">South Central Railway <span class="badge">Railnet</span></a>
+            <a href="#" class="dropdown-item">South East Central Railway</a>
+            <a href="#" class="dropdown-item">South Eastern Railway <span class="badge">Railnet</span></a>
+            <a href="#" class="dropdown-item">South Western Railway <span class="badge">Railnet</span></a>
+            <a href="#" class="dropdown-item">West Central Railway <span class="badge">Railnet</span></a>
+            <a href="#" class="dropdown-item">Western Railway <span class="badge">Railnet</span></a>
+        </div>
+        <div class="column">
+            <h4>Production Units</h4>
+            <a href="#" class="dropdown-item">Chitranjan Locomotive Works</a>
+            <a href="#" class="dropdown-item">Diesel Locomotive Works</a>
+            <a href="#" class="dropdown-item">Rail Spring Kharkana</a>
+            <a href="#" class="dropdown-item">Diesel Loco Modernisation Works</a>
+            <a href="#" class="dropdown-item">Rail Coach Factory</a>
+            <a href="#" class="dropdown-item">Rail Wheel Factory</a>
+            <a href="#" class="dropdown-item">CORE</a>
+            <a href="#" class="dropdown-item">Modern Coach Factory</a>
+        </div>
+        <div class="column">
+            <h4>Organizations</h4>
+            <a href="#" class="dropdown-item">Metro Railway Kolkota</a>
+            <a href="#" class="dropdown-item">RITES</a>
+            <a href="#" class="dropdown-item">IRCON</a>
+            <a href="#" class="dropdown-item">MRVC</a>
+            <a href="#" class="dropdown-item">IRIEEN</a>
+            <a href="#" class="dropdown-item">IRIMEE</a>
+            <a href="#" class="dropdown-item">IRICEN</a>
+            <a href="#" class="dropdown-item">RDSO <span class="badge">Railnet</span></a>
+            <a href="#" class="dropdown-item">IRITM</a>
+            <a href="#" class="dropdown-item">IRISET</a>
+            <a href="#" class="dropdown-item">NAIR</a>
+            <a href="#" class="dropdown-item">RVNL</a>
+            <a href="#" class="dropdown-item">Railway Claims & Refund</a>
+        </div>
+    </div>
+</li>
+
+             <li class="nav-item dropdown">
+  <a href="#" class="nav-link dropdown-toggle">Important Links <i class="fas fa-caret-down"></i></a>
+  <div class="dropdown-content three-column-dropdown">
+    <div class="column">
+      <a href="https://pravas.indianrailways.gov.in/" class="dropdown-item">Online Booking of ORH-ICF</a>
+      <a href="http://10.53.4.89/itc/" class="dropdown-item">IT Centre Help Desk Portal</a>
+      <a href="http://10.53.4.11/Project_asst/output/login.php" class="dropdown-item">IT Asset Management</a>
+      <a href="http://10.53.4.11/vbe/output/login.php" class="dropdown-item">Vande Bharat Maintenance Support Portal</a>
+      <a href="http://10.53.4.11/newicf/rajbhasha_new/railmag/output/menu.php" class="dropdown-item">Rajbhasha Magazine</a>
+      <a href="http://10.53.4.85/PP/bogie" class="dropdown-item">Bogie Inspection Details (Testing)</a>
+      <a href="http://10.53.4.89/outturn/" class="dropdown-item">Coach Despatch Summary</a>
+      <a href="http://10.53.4.105/PB/sop/" class="dropdown-item">Schedule of Powers (SOP)</a>
+      <a href="http://10.53.4.105:81/vir_folder/" class="dropdown-item">Virtual Folder</a>
+      <a href="http://10.53.4.100/stores/mm/dashboard_dashboard.php?page=dashboard" class="dropdown-item">Purchase Module/ICF-IMMS Reports</a>
+    </div>
+    <div class="column">
+      <a href="login.php" class="dropdown-item">Image Upload</a>
+      <a href="http://10.53.4.11/newicf/pdf/2024-25Proposals%20submitted%20to%20Railway%20board.pdf" class="dropdown-item">M&P Programme</a>
+      <a href="http://10.53.4.11/newicf/cap_new/index.php" class="dropdown-item">Central Application Portal</a>
+      <a href="https://vp.icf.gov.in/indexNew.php" class="dropdown-item">Vendor Portal</a>
+      <a href="http://10.53.4.60:8081/MIS_ACCOUNTS/index.php?key=Accounts" class="dropdown-item">MIS-Accounts</a>
+      <a href="http://10.53.4.11/newicf/MIS/index.php" class="dropdown-item">Management Information System(MIS)</a>
+      <a href="http://10.53.4.89/PP/dca/" class="dropdown-item">Design Drawing Advise(DCA)</a>
+    </div>
+    <div class="column">
+      <a href="#" class="dropdown-item">File Upload</a>
+      <a href="http://10.53.4.60:8081/ESSDEMO/" class="dropdown-item">Employee Self Service(ESS)</a>
+      <a href="http://10.53.4.89/esslink/mobile_app_download.php" class="dropdown-item">Mobile App Download Links</a>
+      <a href="http://10.53.4.60:8081/SSSDEMO1/" class="dropdown-item">Supervisor Self Service(SSS)</a>
+      <a href="http://10.53.4.11/newicf/sdownloads/index.html" class="dropdown-item">Software Downloads</a>
+      <a href="https://email.gov.in/" class="dropdown-item">Rail Web Mail</a>
+      <a href="http://10.53.4.86/cms/cmshome.php" class="dropdown-item">Centralized Messaging System</a>
+    <a href="http://10.53.4.105/icfstorescirculars/index.asp" class="dropdown-item">ICF Stores Circulars</a>
+      <a href="http://10.53.4.105/circulars_new/index.asp" class="dropdown-item">Railway Board Circulars</a>
+      <a href="http://10.53.4.89/web_cert/" class="dropdown-item">Website content Certification</a>
+    </div>
+    <div class="column">
+      <a href="http://10.53.4.11/PB/Welfare/welfare1.htm" class="dropdown-item">ICF Welfare</a>
+      <a href="http://10.53.4.89/magazines/homenew.php" class="dropdown-item">ICF Magazines</a>
+      <a href="http://10.53.4.11/newicf/PreVetted_ITSpec/main_page.htm" class="dropdown-item">Pre-Vetted IT Specs</a>
+      <a href="http://10.53.4.11/scouts_guides/index.html" class="dropdown-item">ICF District Bharat Scouts & Guides</a>
+      <a href="http://10.53.4.11/newicf/pdf/SRS%20LOA.pdf" class="dropdown-item">CAMC Maint. for PCs & Peripherals</a>
+      <a href="http://10.53.4.11/newicf/pdf/SRS%20Agreement%20-New-compressed.pdf" class="dropdown-item">Agreement Signed Copy</a>
+      <a href="http://10.53.4.11/newicf/greenco/index.html" class="dropdown-item">Green Co</a>
+    </div>
+    <div class="column">
+      <!-- Moved links from columns 1, 2, and 3 -->
+      <a href="http://10.53.4.89/PRODUCTION/" class="dropdown-item">Production Monitoring System</a>
+      <a href="http://10.53.4.89/cts/" class="dropdown-item">Coach Tracking System</a>
+      <a href="http://10.53.4.89/Assetsregister/index.php" class="dropdown-item">Assets Register</a>
+      <a href="http://10.53.4.85/stores/mm/" class="dropdown-item">ICF - IMMS Reports</a>
+      <a href="http://10.53.4.89/mfs" class="dropdown-item">Material Forecast System(MFS)</a>
+      <a href="http://10.53.4.93/drgs/project1/output" class="dropdown-item">Design Drawings Portal</a>
+      <a href="http://10.53.4.89/pcof/pcog/output/purc_gate_entry_s4_list.php" class="dropdown-item">Material Gate Entry</a>
+      <a href="http://10.53.4.88/gstportal/gsthome.php" class="dropdown-item">GST Portal</a>
+      <a href="http://10.53.4.11/newicf/pdf/WSMA.pdf" class="dropdown-item">IPAS Workorder List</a>
+      <a href="https://chsfiapr01.icf.gov.in:8001/sap/bc/ui2/flp#Shell-home" class="dropdown-item">Incentive Entry Screen</a>
+      <a href="http://10.53.4.11/newicf/milestones.php#" class="dropdown-item">Site Map</a>
+    </div>
+  </div>
+</li>
+
+>>>>>>> 414fa9a10e6c23c4194d665fd64a5b270660c59e
                 <li class="nav-item dropdown">
                     <a href="#" class="nav-link dropdown-toggle"><?php echo __('indian_railways'); ?> <i class="fas fa-caret-down"></i></a>
                     <div class="dropdown-content three-column-dropdown" style="min-width: 800px;">
@@ -166,6 +297,7 @@ require_once 'language_helper.php';
                     </div>
                 </li>
                 <li class="nav-item dropdown">
+<<<<<<< HEAD
                     <a href="#" class="nav-link dropdown-toggle"><?php echo __('important_links'); ?> <i class="fas fa-caret-down"></i></a>
                     <div class="dropdown-content three-column-dropdown">
                         <div class="column">
@@ -292,6 +424,51 @@ require_once 'language_helper.php';
                         <a href="http://10.53.4.11/newicf/icfwebmail/main.html" class="dropdown-item"><?php echo __('mail_ids'); ?></a>
                     </div>
                 </li>
+=======
+    <a href="#" class="nav-link dropdown-toggle">External Links <i class="fas fa-caret-down"></i></a>
+    <div class="dropdown-content two-column-dropdown">
+        <div class="column">
+            <a href="#" class="dropdown-item">NIC MAIL</a>
+            <a href="#" class="dropdown-item">IRPSM</a>
+            <a href="#" class="dropdown-item">Railway Board Directorate</a>
+            <a href="#" class="dropdown-item">SPARROW</a>
+            <a href="#" class="dropdown-item">IRAS Times</a>
+            <a href="#" class="dropdown-item">eOffice</a>
+            <a href="#" class="dropdown-item">IREPS</a>
+            <a href="#" class="dropdown-item">IMMS</a>
+            <a href="#" class="dropdown-item">IPAS</a>
+            <a href="#" class="dropdown-item">HRMS</a>
+            <a href="#" class="dropdown-item">REIS</a>
+            <a href="#" class="dropdown-item">Public Grievances</a>
+        </div>
+        <div class="column">
+            <a href="#" class="dropdown-item">IRCTC</a>
+            <a href="#" class="dropdown-item">CRIS</a>
+            <a href="#" class="dropdown-item">Train Enquiry System</a>
+            <a href="#" class="dropdown-item">National Rail Museum</a>
+            <a href="#" class="dropdown-item">Maps of India</a>
+            <a href="#" class="dropdown-item">ARPAN</a>
+            <a href="#" class="dropdown-item">Explore Rail Heritage online</a>
+            <a href="#" class="dropdown-item">ICF Internet Website</a>
+            <a href="#" class="dropdown-item">GST Portal-Indian Railways</a>
+            <a href="#" class="dropdown-item">Suggestion/complaints-RDSO Portal</a>
+            <a href="#" class="dropdown-item">TIN-NSDL</a>
+            <a href="#" class="dropdown-item">RTDC</a>
+        </div>
+    </div>
+</li>
+               
+                <li class="nav-item dropdown">
+  <a href="#" class="nav-link dropdown-toggle">Contacts <i class="fas fa-caret-down"></i></a>
+  <div class="dropdown-content">
+    <a href="#" class="dropdown-item">GM Intercom</a>
+    <a href="#" class="dropdown-item">ICF Officers Directory</a>
+    <a href="#" class="dropdown-item">ICF Telephone E-Directory</a>
+    <a href="#" class="dropdown-item">ICF CUG Directory</a>
+    <a href="#" class="dropdown-item">Officers/Staffs Mail IDs</a>
+  </div>
+</li>
+>>>>>>> 414fa9a10e6c23c4194d665fd64a5b270660c59e
             </ul>
         </div>
     </nav>
@@ -736,6 +913,7 @@ require_once 'language_helper.php';
 
                     <!-- Birthday Wishes Section -->
                     <div class="birthday-container">
+<<<<<<< HEAD
                         <div class="birthday-card">
                             <div class="card-header">
                                 <h3 class="card-title"><?php echo __('birthday_wishes'); ?></h3>
@@ -776,6 +954,48 @@ require_once 'language_helper.php';
                             </div>
                         </div>
                     </div>
+=======
+    <div class="birthday-card">
+        <div class="card-header">
+            <h3 class="card-title">Birthday Wishes</h3>
+        </div>
+        <div class="card-body">
+            <table class="birthday-table">
+                <tbody>
+                    <tr>
+                        <td>R.KANNAIVALLI</td>
+                        <td>OS</td>
+                    </tr>
+                    <tr>
+                        <td>KUMAR P</td>
+                        <td>SSE(MECH)</td>
+                    </tr>
+                    <tr>
+                        <td>ARIBASKAR D</td>
+                        <td>SSE(MECH)</td>
+                    </tr>
+                    <tr>
+                        <td>RAKHI RAJPUT</td>
+                        <td>OS</td>
+                    </tr>
+                    <tr>
+                        <td>SURESH KUMARA.A</td>
+                        <td>SSE(MECH)</td>
+                    </tr>
+                    <tr>
+                        <td>ANANDAKUMAR.S</td>
+                        <td>JE D</td>
+                    </tr>
+                    <tr>
+                        <td>NISHA T.S</td>
+                        <td>LAB. ASST.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+>>>>>>> 414fa9a10e6c23c4194d665fd64a5b270660c59e
                 </div>
             </div>
         </section>
